@@ -72,6 +72,15 @@
       color: #333
     }
 
+    .column {
+      flex: 50%;
+      padding: 10px;
+    }
+
+    .row {
+      display: flex;
+    }
+
     p {
       font-size: 1.25rem;
       line-height: auto;
@@ -173,36 +182,36 @@
     <div class="container">
       <a class="button-a button-a-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScmxjvFD7zqI6c3DrPfosJ2fuFTOwpLpcdE9anKCg8KfE1Byw/viewform?usp=dialog">RSVP now</a>
     </div>
-
-    <div class="container">
-      <hr>
-    </div>
   
+    <hr>
 
     <div class="container" style="padding-top:35px;padding-bottom:35px;">
 
-      <h2>Accommodation</h2>
-      <p>For guests travelling from further afield, there are several good hotels nearby:</p>
-      <ul>
-        <li>
-          <p><a href="https://www.premierinn.com/gb/en/hotels/england/south-yorkshire/sheffield/sheffield-city-centre-angel-street.html">Premier Inn (Angel Street)</a>, 15-minute walk</p>
-        </li>
-        <li>
-          <p><a href="https://www.leopoldhotel.co.uk/en/">Leopold Hotel</a>, 15-minute walk</p>
-        </li>
-        <li>
-          <p><a href="https://google.com">Hampton by Hilton</a>, 10-minute walk</p>
-        </li>
-      </ul>
-      <hr>
-    
-      <h2>Food</h2>
-      <p>We'll be providing hot and cold buffet food. Vegetarian, vegan and gluten-free options available.</p>
-      
-      <hr>
-
-      <h2>Contact us</h2>
+      <div class="row">
+        <div class="column">  
+              <h2>Accommodation</h2>
+              <p>For guests travelling from further afield, there are several good hotels nearby:</p>
+              <ul>
+                <li>
+                  <p><a href="https://www.premierinn.com/gb/en/hotels/england/south-yorkshire/sheffield/sheffield-city-centre-angel-street.html">Premier Inn (Angel Street)</a>, 15-minute walk</p>
+                </li>
+                <li>
+                  <p><a href="https://www.leopoldhotel.co.uk/en/">Leopold Hotel</a>, 15-minute walk</p>
+                </li>
+                <li>
+                  <p><a href="https://google.com">Hampton by Hilton</a>, 10-minute walk</p>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="column">
+              <h2>Food</h2>
+              <p>We'll be providing hot and cold buffet food. Vegetarian, vegan and gluten-free options available.</p>
+              <h2>Contact us</h2>
       <p>If you've got questions, just email either <a href="mailto:jakehounsell@gmail.com">Jake</a> or <a href="mailto:anna.harrington@hotmail.co.uk">Anna</a>.</p>
+            </div>
+            
+      </div>
 
       <hr>
 
