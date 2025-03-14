@@ -11,13 +11,16 @@
     body {
       font-family: Lato, sans-serif;
       margin: 0;
-      color: #33475B;
+      color: #000000;
+      background-color: #A3B4FF;
     }
     header {
       display: block;
       background: #ff7a59;
-      color: rgb(0, 0, 0);
+      color:#FFFFFF;
       padding: 30px 0;
+      background: rgb(163,180,255);
+      background: linear-gradient(0deg, rgba(163,180,255,1) 17%, rgba(85,104,187,1) 38%, rgba(5,10,31,1) 74%);
     }
 
 
@@ -101,33 +104,35 @@
         margin: 0;
     }
 
-    a {
-        color: #0068B1;
+    a.on-dark {
+      color: #000000;
     }
 
 
     .button-td,
 	.button-a {
-	    transition: all 100ms ease-in;
-        color: #000000;
-        text-transform: uppercase;
+	      transition: all 100ms ease-in;
+        color: #FFFFFF;
         border: none;
         font-size: 2.5rem;
         line-height: auto;
-        box-shadow: 3px 3px #d94c53;
+        box-shadow: 2px 6px 8px #000000;
         border-radius: 5px;
-        padding: 13px 17px;
-        background-color: #FF7A59;
+        padding: 13px 32px;
+        background-color: #232D59;
         text-decoration: none;
 	}
 	.button-td-primary:hover,
 	.button-a-primary:hover {
-	    background: #e04826 !important;
+	    background: #000000 !important;
 	}
 
-    .button-a-primary:active {
-        background: #a61c00;
-        }
+  div.card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
 
   </style>
 </head>
@@ -136,44 +141,51 @@
     <div class="container">
       <h1 class="h1">Jake and Anna turn 30 🎉</h1>
     </div>
-  </header>
-  <main>
+
     <div class="container">
       <h2>You're invited to celebrate with us!</h2>
-      <p class="hint-text">Plus ones welcome.</p>
     </div>
 
     <div class="container">
         
-        <dl class="horizontal-list">
-            <dt class="horizontal-list">
-                <span class="emoji-header" role="img" aria-label="When">📅</span>
-            </dt>
-            <dd class="horizontal-list">
-                <p>Saturday 4 October</p>
-            </dd>
-         </dl>
-        
-        <dl class="horizontal-list">
-            <dt class="horizontal-list">
-                <span class="emoji-header" role="img" aria-label="Where">📍</span>
-            </dt>
-            <dd class="horizontal-list">
-                <p>
-                    <a href=https://www.barkelham.com>Bar Kelham</a>, Sheffield, <a href="https://maps.app.goo.gl/4yxAxDGdH1A9V4NU6">S3 8SE</a>
-                </p>
-            </dd>
-         </dl>
+      <dl class="horizontal-list">
+          <dt class="horizontal-list">
+              <span class="emoji-header" role="img" aria-label="When">📅</span>
+          </dt>
+          <dd class="horizontal-list">
+              <p>Saturday 4 October</p>
+          </dd>
+       </dl>
+      
+      <dl class="horizontal-list">
+          <dt class="horizontal-list">
+              <span class="emoji-header" role="img" aria-label="Where">📍</span>
+          </dt>
+          <dd class="horizontal-list">
+              <p>
+                  <a href=https://www.barkelham.com class="on-dark">Bar Kelham</a>, Sheffield, <a href="https://maps.app.goo.gl/4yxAxDGdH1A9V4NU6" class="on-dark">S3 8SE</a>
+              </p>
+          </dd>
+       </dl>
 
-         <dl class="horizontal-list">
-            <dt class="horizontal-list">
-                <span class="emoji-header" role="img" aria-label="Time">🕰️</span>
-            </dt>
-            <dd class="horizontal-list">
-                <p>6.30pm until late</p>
-            </dd>
-         </dl>
-    </div>
+       <dl class="horizontal-list">
+          <dt class="horizontal-list">
+              <span class="emoji-header" role="img" aria-label="Time">🕰️</span>
+          </dt>
+          <dd class="horizontal-list">
+              <p>6.30pm until late</p>
+          </dd>
+       </dl>
+  </div>
+
+  <div class="container">
+    <img src="/assets/IMG20241122132829_01.jpg" alt="">
+  </div>
+
+
+  </header>
+
+  <main>
 
     <div class="container">
       <hr>
@@ -193,13 +205,13 @@
               <p>For guests travelling from further afield, there are several good hotels nearby:</p>
               <ul>
                 <li>
-                  <p><a href="https://www.premierinn.com/gb/en/hotels/england/south-yorkshire/sheffield/sheffield-city-centre-angel-street.html">Premier Inn (Angel Street)</a>, 15-minute walk</p>
+                  <p><a href="https://www.premierinn.com/gb/en/hotels/england/south-yorkshire/sheffield/sheffield-city-centre-angel-street.html" class="on-dark">Premier Inn (Angel Street)</a>, 15-minute walk</p>
                 </li>
                 <li>
-                  <p><a href="https://www.leopoldhotel.co.uk/en/">Leopold Hotel</a>, 15-minute walk</p>
+                  <p><a href="https://www.leopoldhotel.co.uk/en/" class="on-dark">Leopold Hotel</a>, 15-minute walk</p>
                 </li>
                 <li>
-                  <p><a href="https://google.com">Hampton by Hilton</a>, 10-minute walk</p>
+                  <p><a href="https://www.hilton.com/en/hotels/dsashhx-hampton-sheffield/" class="on-dark">Hampton by Hilton</a>, 10-minute walk</p>
                 </li>
               </ul>
             </div>
@@ -208,7 +220,7 @@
               <h2>Food</h2>
               <p>We'll be providing hot and cold buffet food. Vegetarian, vegan and gluten-free options available.</p>
               <h2>Contact us</h2>
-      <p>If you've got questions, just email either <a href="mailto:jakehounsell@gmail.com">Jake</a> or <a href="mailto:anna.harrington@hotmail.co.uk">Anna</a>.</p>
+      <p>If you've got questions, just email either <a class="on-dark" href="mailto:jakehounsell@gmail.com">Jake</a> or <a class="on-dark" href="mailto:anna.harrington@hotmail.co.uk">Anna</a>.</p>
             </div>
             
       </div>
