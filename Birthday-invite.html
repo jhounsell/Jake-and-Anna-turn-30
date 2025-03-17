@@ -24,7 +24,7 @@
       width: 100%;
     }
 
-    img {
+    img.headshots {
       border-radius: 250px;
       box-shadow: 10px 10px 8px #00000048;
     }
@@ -106,6 +106,7 @@
     .horizontal-list {
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
     }
 
     .horizontal-list dt {
@@ -115,6 +116,7 @@
 
     .horizontal-list dd {
         margin: 0;
+        vertical-align: middle;
     }
 
     a.on-dark {
@@ -190,7 +192,7 @@
   </div>
 
   <div class="container">
-    <img src="IMG_20241116_223127.jpg" alt="" width="50%" height="initial-scale">
+    <img src="IMG_20241116_223127.jpg" class="headshots" alt="" width="50%" height="initial-scale">
   </div>
 
   <hr>
@@ -248,7 +250,35 @@
       <div class="row">
         <div class="column">
           <h2>Contact us</h2>
-          <p>If you've got questions, just drop <a class="on-dark" href="https://wa.me/447794997072">Jake</a> or <a class="on-dark" href="https://wa.me/447510283483">Anna</a> a line.</p>
+          <p>If you've got questions, just drop us a line:</p>
+          
+          <dl class="horizontal-list">
+            <dt class="horizontal-list">
+                <img
+                  src="Vector.svg"
+                  alt="WhatsApp logo"
+                  height="40px"
+                  width="40px"
+                />
+            </dt>
+            <dd class="horizontal-list">
+                <p><a class="on-dark" href="https://wa.me/447794997072">Jake</a>  |  <a class="on-dark" href="https://wa.me/447510283483">Anna</a></p>
+            </dd>
+         </dl>
+          <dl class="horizontal-list">
+            <dt class="horizontal-list">
+                <img
+                  src="telephone_icon.svg"
+                  alt="Telephone icon"
+                  height="40px"
+                  width="40px"
+                />
+            </dt>
+            <dd class="horizontal-list">
+                <p>07794997072 (Jake)  |  07510283483 (Anna)</a></p>
+            </dd>
+         </dl>
+          
         </div>
 
         <hr>
