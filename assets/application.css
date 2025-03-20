@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: IBM Plex, sans-serif;
+    margin: 0;
+}
+
+main {
+    margin: 0;
+    display: block;
+}
+
+p.break-text {
+    font-size: 4rem;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 960;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 5.5%;
+    padding-left: 5.5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container-narrow {
+    max-width: 234px;
+    margin: none;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.horizontal-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+dl {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+dt {
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+dd {
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+img.icons {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    width: fit-content;
+}
+
+.container-break {
+    max-width: 960;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 5.5%;
+    padding-left: 5.5%;
+    background-color: #505050;
+    color: #ffffff;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+a.nav-item {
+    text-decoration: none;
+    color: #000000;
+}
+
+a.nav-item:hover {
+    text-decoration: underline 4px #000000;
+    font-weight: bold;
+}
+
+header {
+    display: block;
+    padding-top: 5%;
+    width: 100%;
+    background-color: #B1B1B1;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    gap: 15px;
+}
+
+.horizontal-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 2.5%;
+}
+
+.horizontal-container-timeline {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 10px;
+}
+
+.caption {
+    color: #575759;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.nav-item {
+    font-size: 1.25rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.horizontal-container {
+    max-width: 960;
+    margin: auto;
+    padding-right: 1%;
+    padding-left: 1%
+}
+
+.visually-hidden {
+    clip: rect (0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 75%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+  
